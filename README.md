@@ -55,18 +55,18 @@ Install package dependencies, e.g., sklearn, scipy, torch.
 
 Stage 1: learning-based simulator.
 
-Run $main\_simulator.py$, where the arguments vary according to different experiments.
+Run $main_simulator.py$, where the arguments vary according to different experiments.
 
-Run $plot\_simulator.py$ to reproduce the figures in the paper, after all corresponded experiments are done.
+Run $plot_simulator.py$ to reproduce the figures in the paper, after all corresponded experiments are done.
 
 Update the searched optimal simulation parameter to $parameter.py$.
 
 
 Stage 2: offline training.
 
-Run $main\_offline.py$, where the arguments vary according to different experiments.
+Run $main_offline.py$, where the arguments vary according to different experiments.
 
-Run $plot\_offline.py$ to reproduce the figures in the paper, after all corresponded experiments are done.
+Run $plot_offline.py$ to reproduce the figures in the paper, after all corresponded experiments are done.
 
 Update the searched optimal resource configuration to $parameter.py$.
 
@@ -75,6 +75,6 @@ Stage 3: online learning.
 
 Bring up the network prototype (see below), validate it is live and can be connected by the $system.py$ script.
 
-Run $main\_online.py$, where the arguments vary according to different experiments.
+Run $main_online.py$, where the arguments vary according to different experiments.
 
-Run $plot\_online.py$ to reproduce the figures in the paper, after all corresponded experiments are done.# 
+Run $plot_online.py$ to reproduce the figures in the paper, after all corresponded experiments are done.# 
