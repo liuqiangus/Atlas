@@ -8,7 +8,7 @@ Atlas: Automate Online Service Configuration in Network Slicing
 Network Simulator.
 
 
-Install NS-3 3.36, either with official instruction or provided bash file.
+Install NS-3 3.36, either with official instruction or provided bash file. (THe deatiled instructions are in "others/" folder)
 
 Add additional files (i.e., $edge/$) in NS-3 $contrib/$ folder, and rebuild.
 
