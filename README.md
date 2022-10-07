@@ -39,7 +39,7 @@ Connect SDN switch between the RAN and CORE desktop, validate it can enforce ban
 
 As everything is well validated individually, close all scripts and program.
 
-The order of running the network prototype is: OpenDayLight -- Transport controller -- FlexRAN controller -- CORE -- edge server applications -- RAN -- Configure slicing parameter -- Smartphone (disable airplane mode and open the app) -- start $main_online.py$.
+The order of running the network prototype is: OpenDayLight -- Transport controller -- FlexRAN controller -- CORE -- edge server applications -- RAN -- Configure slicing parameter -- Smartphone (disable airplane mode and open the app) -- start main_online.py.
 
 The demo procedures of bringing up the network prototype is online: 
 
