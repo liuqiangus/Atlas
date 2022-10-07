@@ -10,6 +10,7 @@ Network Simulator.
 
 Install NS-3 3.36, either with official instruction or provided bash file.
 
+Add additional files (i.e., $edge/$) in NS-3 $contrib/$ folder, and rebuild.
 
 Add additional files (i.e., main.cc) in NS-3 scratch/ folder, and rebuild.
 
@@ -21,6 +22,8 @@ Network Prototype. (The detailed installation are in https://github.com/int-unl/
 Install OpenAirInterface RAN with official instruction.
 
 Install OpenAirInterface CORE with official instruction, where the dockerized network functions are required, e.g., SPGW-U and HSS.
+
+Modify SPGW-C and rebuild to enable core network slicing, validate it redirects specific mobile users to corresponded SPGW-Us.
 
 Connect smartphones with RAN with programmed USIM to match the PLMN and other parameters, validate they can access to the SPGW-U docker.
 
