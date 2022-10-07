@@ -33,7 +33,7 @@ Install the provided edge server application in individual SPGW-U dockers, valid
 
 Install FlexRAN controller 2.0 with official instruction, validate its slicing capability when changing PRB allocation on RAN to different mobile users.
 
-Initialize the SDN switch and install OpenDayLight to connect the switch, validate the provided $tn_server.py$ can connect OpenDayLight.
+Initialize the SDN switch and install OpenDayLight to connect the switch, validate the provided tn_server.py can connect OpenDayLight.
 
 Connect SDN switch between the RAN and CORE desktop, validate it can enforce bandwidth allocation to between mobile users and their SPGW-U dockers
 
