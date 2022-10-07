@@ -16,7 +16,7 @@ Add additional files (i.e., main.cc) in NS-3 scratch/ folder, and rebuild.
 Validate the network simulator can be connected by $simulator.py$ script.
 
 
-Network Prototype.
+Network Prototype. (The detailed installation are in https://github.com/int-unl/End-to-End-Slicing.git)
 
 Install OpenAirInterface RAN with official instruction.
 
