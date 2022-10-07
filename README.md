@@ -35,7 +35,7 @@ Install FlexRAN controller 2.0 with official instruction, validate its slicing c
 
 Initialize the SDN switch and install OpenDayLight to connect the switch, validate the provided $tn_server.py$ can connect OpenDayLight.
 
-Connect SDN switch between the RAN and CORE desktop, validate it can enforce bandwidth allocation to different SPGW-U dockers.
+Connect SDN switch between the RAN and CORE desktop, validate it can enforce bandwidth allocation to between mobile users and their SPGW-U dockers
 
 As everything is well validated individually, close all scripts and program.
 
