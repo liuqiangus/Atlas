@@ -31,7 +31,7 @@ Install the provided Android application to smartphones (Android 11).
 
 Install the provided edge server application in individual SPGW-U dockers, validate smartphones can connect with their servers with periodically performance updates.
 
-Install FlexRAN controller 2.0 with official instructions, validate the RAN can connect to it and the slicing capability when changing PRB allocation to different mobile users.
+Install FlexRAN controller 2.0 with official instruction, validate its slicing capability when changing PRB allocation on RAN to different mobile users.
 
 Initialize the SDN switch and install OpenDayLight to connect the switch, validate the provided $tn_server.py$ can connect OpenDayLight.
 
