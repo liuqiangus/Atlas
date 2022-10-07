@@ -94,25 +94,6 @@ simulator = Simulator(
             seed = args.seed
             ) # the same seed for comparison,
 
-# results = simulator.step()
-
-# results = simulator.run_with_sim_para()
-
-# opt = {'bandwidth_ul': 25.74, 'mcs_offset_ul': 2.35, 'bandwidth_dl': 39.3, 'mcs_offset_dl': 0.02, 'backhaul_bw': 14.59, 'cpu_ratio': 0.9}
-# results = simulator.run_with_res_para(opt)
-
-# # with open('Bayesian_optimziation_offline_evaluation_performance_numUEs_'+str(simulator.numUEs)+'.pkl', 'wb') as file:
-# #     pickle.dump(results, file)
-
-# REFERENCE = pickle.load(open("app_eval/real_indiv/"+ "measurement_system_performance_slice_0_traffic_"+str(simulator.numUEs)+".pickle", "rb" ))['performance']
-
-# kl = calculate_kl_divergence(results['performance'], REFERENCE)
-
-# print('simulated kl with optimal parameter is', kl, ', should be ~0.12')
-
-# print('done')
-# raise ValueError('completed successfully.')
-
 
 ## attention, XXX make sure this matches the setting in the simulator.py
 PBOUNDS = {

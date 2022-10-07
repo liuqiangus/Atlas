@@ -21,20 +21,8 @@ from simulator import Simulator
 from functions import *
 ###############################################################################################################################################
 # NOTE:  change the PBOUNDS keys manually if you want different number of parameters to be learned
-# 
 
 ###############################################################################################################################################
-# def black_box_function(x, y):
-#     """Function with unknown internals we wish to maximize.
-
-#     This is just serving as an example, for all intents and
-#     purposes think of the internals of this function, i.e.: the process
-#     which generates its output values, as unknown.
-#     """
-#     return -x ** 2 - (y - 1) ** 2 + 1
-
-# # Bounded region of parameter space
-# PBOUNDS = {'x': (2, 4), 'y': (-3, 3)}
 
 def select_next_queries(utils, times=1):
     action = Action() # create a default action
