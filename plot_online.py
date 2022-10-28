@@ -3,6 +3,8 @@ from matplotlib import pyplot as plt
 import pickle
 import numpy as np
 import matplotlib
+matplotlib.rcParams['pdf.fonttype'] = 42
+matplotlib.rcParams['ps.fonttype'] = 42
 import seaborn as sns
 from functions import *
 
