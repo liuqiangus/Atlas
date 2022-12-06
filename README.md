@@ -1,6 +1,7 @@
 # Atlas
-Atlas: Automate Online Service Configuration in Network Slicing
+Atlas: Automate Online Service Configuration in Network Slicing, ACM CoNEXT 2022, https://dl.acm.org/doi/10.1145/3555050.3569115
 
+Author: Qiang Liu, University of Nebraska-Lincoln; Nakjung Choi, Nokia Bell Labs; Tao Han, New Jersey Institute of Technology.
 
 
 # Network Simulator and Prototype Build
